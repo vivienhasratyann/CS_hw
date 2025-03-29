@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\Task2\\",
+  "WorkspaceRootPath": "C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\HW\\Task2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE47A96B-57A2-4BE3-9AD9-5FF30C6F771F}|Task2\\Task2.csproj|c:\\users\\37499\\desktop\\ufar\\ima2\\2semestre\\c#\\task2\\task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BE47A96B-57A2-4BE3-9AD9-5FF30C6F771F}|Task2\\Task2.csproj|c:\\users\\37499\\desktop\\ufar\\ima2\\2semestre\\c#\\hw\\task2\\task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE47A96B-57A2-4BE3-9AD9-5FF30C6F771F}|Task2\\Task2.csproj|solutionrelative:task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\Task2\\Task2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\HW\\Task2\\Task2\\Program.cs",
               "RelativeDocumentMoniker": "Task2\\Program.cs",
-              "ToolTip": "C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\Task2\\Task2\\Program.cs",
+              "ToolTip": "C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\HW\\Task2\\Task2\\Program.cs",
               "RelativeToolTip": "Task2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAiwJkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T16:02:42.298Z",
               "EditorCaption": ""
