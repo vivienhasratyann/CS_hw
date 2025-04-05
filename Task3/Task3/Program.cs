@@ -13,10 +13,11 @@ class SelectionSort : Strategy
     public override void Sort(ref int[] array)
     {
         Console.WriteLine("SelectionSort");
-        for (int i = 0; i < array.Length - 1; i++)
+        int n = array.Length;
+        for (int i = 0; i < n - 1; i++)
         {
             int k = i;
-            for (int j = i + 1; j < array.Length; j++)
+            for (int j = i + 1; j < n; j++)
                 if (array[k] > array[j])
                     k = j;
             if (k != i)
@@ -35,17 +36,17 @@ class InsertionSort : Strategy
     public override void Sort(ref int[] array)
     {
         Console.WriteLine("InsertionSort");
-        for (int i = 1; i < array.Length; i++)
+        int n = array.Length;
+        for (int i = 1; i < n; i++)
         {
-            int j = 0;
-            int buffer = array[i];
-            for (j = i - 1; j >= 0; j--)
+            int key = array[i];
+            int j = i - 1;
+            while (j >= 0 && array[j] > key)
             {
-                if (array[j] < buffer)
-                    break;
                 array[j + 1] = array[j];
+                j--;
             }
-            array[j + 1] = buffer;
+            array[j + 1] = key;
         }
     }
 }
@@ -141,11 +142,12 @@ class ShellSortStrategy : Strategy
 class Context
 {
     Strategy strategy;
-    public int[] array = { 3, 5, 1, 2, 4 }; // Օգտագործում եմ լեկցիայի օրինակում բերված զանգվածը
+    public int[] array; // Հանրային դարձնում ենք զանգվածը
 
-    public Context(Strategy strategy)
+    public Context(Strategy strategy, int[] data) // Կոնստրուկտորին փոխանցում ենք տվյալները
     {
         this.strategy = strategy;
+        this.array = (int[])data.Clone(); // Ստեղծում ենք տվյալների պատճենը
     }
 
     public void Sort()
@@ -165,52 +167,56 @@ class Program
 {
     static void Main(string[] args)
     {
+        int arraySize = 20000; // Ավելի մեծ զանգվածի չափ
+        int[] initialData = new int[arraySize];
+        Random random = new Random();
+        for (int i = 0; i < arraySize; i++)
+        {
+            initialData[i] = random.Next(1, 100000); // Պատահական մեծ թվեր
+        }
+
         Strategy sort;
         Context context;
         Stopwatch stopwatch = new Stopwatch();
 
-        //Selection Sort (լեկցիայի օրինակից)
+        // Selection Sort
         sort = new SelectionSort();
-        context = new Context(sort);
+        context = new Context(sort, initialData);
         Console.WriteLine("--- Selection Sort ---");
-        int[] arrayToSort = (int[])context.array.Clone();
         stopwatch.Start();
-        sort.Sort(ref arrayToSort);
+        context.Sort();
         stopwatch.Stop();
         Console.WriteLine($"Execution Time: {stopwatch.ElapsedMilliseconds} ms");
-        context.PrintArray();
+        //context.PrintArray();
 
-        //Insertion Sort (լեկցիայի օրինակից)
+        // Insertion Sort
         sort = new InsertionSort();
-        context = new Context(sort);
+        context = new Context(sort, initialData);
         Console.WriteLine("\n--- Insertion Sort ---");
-        arrayToSort = (int[])context.array.Clone();
         stopwatch.Start();
-        sort.Sort(ref arrayToSort);
+        context.Sort();
         stopwatch.Stop();
         Console.WriteLine($"Execution Time: {stopwatch.ElapsedMilliseconds} ms");
-        context.PrintArray();
+        //context.PrintArray();
 
-        //Merge Sort 
+        // Merge Sort
         sort = new MergeSortStrategy();
-        context = new Context(sort);
+        context = new Context(sort, initialData);
         Console.WriteLine("\n--- Merge Sort ---");
-        arrayToSort = (int[])context.array.Clone();
         stopwatch.Start();
-        sort.Sort(ref arrayToSort);
+        context.Sort();
         stopwatch.Stop();
         Console.WriteLine($"Execution Time: {stopwatch.ElapsedMilliseconds} ms");
-        context.PrintArray();
+        //context.PrintArray();
 
-        // Shell Sort 
+        // Shell Sort
         sort = new ShellSortStrategy();
-        context = new Context(sort);
+        context = new Context(sort, initialData);
         Console.WriteLine("\n--- Shell Sort ---");
-        arrayToSort = (int[])context.array.Clone();
         stopwatch.Start();
-        sort.Sort(ref arrayToSort);
+        context.Sort();
         stopwatch.Stop();
         Console.WriteLine($"Execution Time: {stopwatch.ElapsedMilliseconds} ms");
-        context.PrintArray();
+        //context.PrintArray();
     }
 }
