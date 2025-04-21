@@ -1,0 +1,7 @@
+C:\Users\37499\Desktop\UFAR\IMA2\2semestre\c#\HW\Task4\Task4\bin\Debug\Task4.exe.config
+C:\Users\37499\Desktop\UFAR\IMA2\2semestre\c#\HW\Task4\Task4\bin\Debug\Task4.exe
+C:\Users\37499\Desktop\UFAR\IMA2\2semestre\c#\HW\Task4\Task4\bin\Debug\Task4.pdb
+C:\Users\37499\Desktop\UFAR\IMA2\2semestre\c#\HW\Task4\Task4\obj\Debug\Task4.csproj.AssemblyReference.cache
+C:\Users\37499\Desktop\UFAR\IMA2\2semestre\c#\HW\Task4\Task4\obj\Debug\Task4.csproj.CoreCompileInputs.cache
+C:\Users\37499\Desktop\UFAR\IMA2\2semestre\c#\HW\Task4\Task4\obj\Debug\Task4.exe
+C:\Users\37499\Desktop\UFAR\IMA2\2semestre\c#\HW\Task4\Task4\obj\Debug\Task4.pdb
