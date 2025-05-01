@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\variant1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4434BCD-D68A-4FFA-8AC7-AF12BEF50B88}|task1\\task1.csproj|C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\variant1\\task1\\task1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4434BCD-D68A-4FFA-8AC7-AF12BEF50B88}|task1\\task1.csproj|solutionrelative:task1\\task1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246C6DDC-9ED0-41FF-97CE-38E286032E4F}|task3\\task3.csproj|c:\\users\\37499\\desktop\\ufar\\ima2\\2semestre\\c#\\variant1\\task3\\task3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{246C6DDC-9ED0-41FF-97CE-38E286032E4F}|task3\\task3.csproj|solutionrelative:task3\\task3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF7F9BD-34E3-4787-95D8-F9601ECDAE5E}|task5\\task5.csproj|C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\variant1\\task5\\task5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF7F9BD-34E3-4787-95D8-F9601ECDAE5E}|task5\\task5.csproj|solutionrelative:task5\\task5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887DBADD-929F-41E1-A9C7-7DD60A5BA079}|task4\\task4.csproj|C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\variant1\\task4\\task4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{887DBADD-929F-41E1-A9C7-7DD60A5BA079}|task4\\task4.csproj|solutionrelative:task4\\task4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1092C2B-E3C1-4576-B763-90E6BAB03D2C}|task2\\task2.csproj|C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\variant1\\task2\\task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1092C2B-E3C1-4576-B763-90E6BAB03D2C}|task2\\task2.csproj|solutionrelative:task2\\task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "task1.cs",
+              "DocumentMoniker": "C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\variant1\\task1\\task1.cs",
+              "RelativeDocumentMoniker": "task1\\task1.cs",
+              "ToolTip": "C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\variant1\\task1\\task1.cs",
+              "RelativeToolTip": "task1\\task1.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAADwv08AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:46:12.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "task5.cs",
+              "DocumentMoniker": "C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\variant1\\task5\\task5.cs",
+              "RelativeDocumentMoniker": "task5\\task5.cs",
+              "ToolTip": "C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\variant1\\task5\\task5.cs",
+              "RelativeToolTip": "task5\\task5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:10:25.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "task4.cs",
+              "DocumentMoniker": "C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\variant1\\task4\\task4.cs",
+              "RelativeDocumentMoniker": "task4\\task4.cs",
+              "ToolTip": "C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\variant1\\task4\\task4.cs",
+              "RelativeToolTip": "task4\\task4.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwCgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:30:19.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "task3.cs",
+              "DocumentMoniker": "C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\variant1\\task3\\task3.cs",
+              "RelativeDocumentMoniker": "task3\\task3.cs",
+              "ToolTip": "C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\variant1\\task3\\task3.cs",
+              "RelativeToolTip": "task3\\task3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:47:02.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "task2.cs",
+              "DocumentMoniker": "C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\variant1\\task2\\task2.cs",
+              "RelativeDocumentMoniker": "task2\\task2.cs",
+              "ToolTip": "C:\\Users\\37499\\Desktop\\UFAR\\IMA2\\2semestre\\c#\\variant1\\task2\\task2.cs",
+              "RelativeToolTip": "task2\\task2.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwBIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:14:57.221Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
