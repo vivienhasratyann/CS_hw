@@ -1,7 +1,0 @@
-C:\Users\37499\Desktop\UFAR\IMA2\2semestre\c#\variant2\task3\bin\Debug\task3.exe.config
-C:\Users\37499\Desktop\UFAR\IMA2\2semestre\c#\variant2\task3\bin\Debug\task3.exe
-C:\Users\37499\Desktop\UFAR\IMA2\2semestre\c#\variant2\task3\bin\Debug\task3.pdb
-C:\Users\37499\Desktop\UFAR\IMA2\2semestre\c#\variant2\task3\obj\Debug\task3.csproj.AssemblyReference.cache
-C:\Users\37499\Desktop\UFAR\IMA2\2semestre\c#\variant2\task3\obj\Debug\task3.csproj.CoreCompileInputs.cache
-C:\Users\37499\Desktop\UFAR\IMA2\2semestre\c#\variant2\task3\obj\Debug\task3.exe
-C:\Users\37499\Desktop\UFAR\IMA2\2semestre\c#\variant2\task3\obj\Debug\task3.pdb
